@@ -1,0 +1,24 @@
+@import '/node_modules/@fontsource/lato/300.css';
+@import '/node_modules/@fontsource/lato/400.css';
+@import '/node_modules/@fontsource/lato/700.css';
+@import '/node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
+
+body { font-family: "Lato", sans-serif; }
+
+.container{
+  width: 70%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  li{
+    list-style: none;
+    select, .fa{
+      cursor: pointer;
+    }
+  }
+}
