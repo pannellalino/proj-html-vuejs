@@ -2,13 +2,15 @@
 import jumbotron from './jumbotron.vue';
 import first from './first.vue';
 import featured from './featured.vue';
+import TalkAbout from './TalkAbout.vue';
 
 export default {
   name: 'AppMain',
   components:{
     jumbotron,
     first,
-    featured
+    featured,
+    TalkAbout
   },
   data(){
     return{
@@ -23,6 +25,7 @@ export default {
     <jumbotron />
     <first />
     <featured />
+    <TalkAbout />
   </main>
 </template>  
 

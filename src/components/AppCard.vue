@@ -15,8 +15,8 @@ export default {
         <div class="text text-start">
           <h5><strong>{{card.price}}</strong></h5>
           <p v-html="card.info"></p>
-          <span class="pe-4">{{card.lessons}}</span>
-          <span>{{card.students}}</span>
+          <span class="pe-4"><i class="fa-solid fa-file-lines me-2"></i>{{card.lessons}}</span>
+          <span><i class="fa-regular fa-user me-2"></i>{{card.students}}</span>
         </div>
       </div>
 </template>  
@@ -28,11 +28,15 @@ export default {
   background-color: transparent;
     img{
       object-fit: cover;
-      width: 170px;
-      height: 170px;
+      width: 150px;
+      height: 150px;
     }
     h5{
       color: #27ab94;
+    }
+    span{
+      font-size: 14px;
+      color: grey;
     }
   }
 </style>
