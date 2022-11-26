@@ -20,13 +20,13 @@ export default {
     <div class="container-c m-0">
       <div class="row w-100 mt-5 justify-content-center">
         <div class="col-2 d-flex justify-content-center">
-          <img class="h-100" src="../img/home-6-hero-left-person.png" alt="">
+          <img class="h-100" src="../assets/img/home-6-hero-left-person.png" alt="">
         </div>
         <div class="col-5 p-0">
-          <img class="image-center w-100" src="../img/home-6-hero-poster-final.jpg" alt="jumbo">
+          <img class="image-center w-100" src="../assets/img/home-6-hero-poster-final.jpg" alt="jumbo">
         </div>
         <div class="image-right col-2 p-0  d-flex flex-column justify-content-end">
-          <img src="../img/home-6-hero-right-person.png" alt="">
+          <img src="../assets/img/home-6-hero-right-person.png" alt="">
         </div>
       </div>
     </div>
@@ -38,7 +38,7 @@ export default {
 .jumbo{
   position: relative;
   width: 100%;
-  background-image: url('../img/wave5.svg');
+  background-image: url('../assets/img/wave5.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;

@@ -14,7 +14,7 @@ export default {
   <header>
     <div class="container d-flex align-items-center justify-content-between h-100">
 
-      <img src="../img/light-logo.png" alt="logo">
+      <img src="../assets/img/light-logo.png" alt="logo">
       <AppMenu />
       <div class="input-group">
         <input type="text" class="form-control border-end-0" placeholder="Search..." aria-label="Recipient's username" aria-describedby="basic-addon2">
