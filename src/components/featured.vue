@@ -22,7 +22,7 @@ export default {
   <section class="text-center p-5">
     <div class="container text-center">
       <h6>Choose a course to get started</h6>
-      <h2><strong class="text-dark">Latest Featured </strong>Courses</h2>
+      <h2 class="p-2"><strong class="text-dark fw-bold">Latest Featured </strong>Courses</h2>
     </div>
     <div class="container d-flex flex-wrap py-5">
       <AppCard 

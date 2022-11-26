@@ -43,13 +43,27 @@ export default{
       students: '76 Students',
     }
   ],
-  sezione2:[
+  articolis:[
+    {
+      file_name: 'artist-blog-03-480x325.jpeg',
+      job: 'Artist',
+      info: 'Brush Strokes Energieze Trees in Paintings',
+      date: 'May 15, 2020',
+      views: '688 views',
+    },
     {
       file_name: 'artist-blog-01-480x325.jpg',
-      price: '$40.00',
-      info: 'Learning to Write as a Professional Author',
-      lessons: '20 Lessons',
-      students: '50 Students',
+      job: 'Artist',
+      info: 'Pocket-Sized Notebooks Hold Miniature Paintings',
+      date: 'May 15, 2020',
+      views: '603 views',
+    },
+    {
+      file_name: 'artist-blog-02-480x325.jpg',
+      job: 'Artist',
+      info: 'Connection Between Self-Portraits and Identity',
+      date: 'May 15, 2020',
+      views: '397 views',
     }
   ],
   logos:[
