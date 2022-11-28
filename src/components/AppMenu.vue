@@ -11,43 +11,31 @@ export default {
     <li class="me-4">
       <select class="border-0 p-0 bg-transparent text-white" name="" id="">
         <option value="Home">Home</option>
-        <option value="1">2</option>
-        <option value="2">3</option>
       </select>
     </li>
     <li class="me-4">
       <select class="border-0 p-0 bg-transparent text-white" name="" id="">
         <option value="Home">Pages</option>
-        <option value="1">2</option>
-        <option value="2">3</option>
       </select>
     </li>
     <li class="me-4">
       <select class="border-0 p-0 bg-transparent text-white" name="" id="">
         <option value="Home">Courses</option>
-        <option value="1">2</option>
-        <option value="2">3</option>
       </select>
     </li>
     <li class="me-4">
       <select class="border-0 p-0 bg-transparent text-white" name="" id="">
         <option value="Home">Features</option>
-        <option value="1">2</option>
-        <option value="2">3</option>
       </select>
     </li>
     <li class="me-4">
       <select class="border-0 p-0 bg-transparent text-white" name="" id="">
         <option value="Home">Blog</option>
-        <option value="1">2</option>
-        <option value="2">3</option>
       </select>
     </li>
     <li class="">
       <select class="border-0 p-0 bg-transparent text-white" name="" id="">
         <option value="Home">Shop</option>
-        <option value="1">2</option>
-        <option value="2">3</option>
       </select>
     </li>
     <li class="me-4">

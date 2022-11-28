@@ -31,7 +31,7 @@ export default {
       :card="card"
       />
     </div>
-    <buttonCustom />
+    <buttonCustom class="btn"/>
   </section>
 </template>  
 
@@ -45,6 +45,12 @@ section{
   h2:not(strong){
     color: #27ab94;
     font-weight: 100;
+  }
+  .btn{
+    &:hover{
+      color: white;
+      background-color: #293259;
+    }
   }
 }
 </style>

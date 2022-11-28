@@ -45,7 +45,7 @@ export default {
       </div>
     </div>
     <span class="text-secondary">2020 Maxcoach. All Rights Reserved</span>
-    <button class="rounded-circle"><i class="fa-solid fa-arrow-up"></i></button>
+    <button class="rounded-circle"><a href="up"><i class="fa-solid fa-arrow-up"></i></a></button>
   </footer>
 </template>  
 
@@ -69,6 +69,9 @@ footer{
     background-color: #27ab94;
     color: white;
     font-size: 20px;
+    &:hover{
+      background-color: #293259;
+    }
   }
 }
 </style>

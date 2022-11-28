@@ -24,6 +24,9 @@ export default {
         </div>
         <div class="col-5 p-0">
           <img class="image-center w-100" src="../assets/img/home-6-hero-poster-final.jpg" alt="jumbo">
+          <div class="youtube">
+            <img src="../assets/img/icon-youtube-play.png" alt="">
+          </div>
         </div>
         <div class="image-right col-2 p-0  d-flex flex-column justify-content-end">
           <img src="../assets/img/home-6-hero-right-person.png" alt="">
@@ -47,9 +50,16 @@ export default {
     position: relative;
     bottom: -70px;
     .image-center{
+      position: relative;
       border: 25px solid white;
       border-radius: 25px;
       box-shadow: 2px 1px 50px 0px  rgba(35, 35, 35, 0.616);
+    }
+    .youtube{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-30%, -50%);
     }
     .image-right{
       width: 250px;

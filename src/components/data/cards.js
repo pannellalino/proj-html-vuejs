@@ -85,5 +85,35 @@ export default{
     {
       logo: 'client-logo-colored-06.png'
     }
+  ],
+  services_top:[
+    {
+      title: 'Graphic Design',
+      info: 'Have a passion for graphic and arts? Show your talents with confidence and self-assertiveness.',
+      image: 'home-6-service-image-01.png'
+    },
+    {
+      title: 'Business Administration',
+      info: 'Learners are encouraged to study the mechanism and structure of system administration.',
+      image: 'home-6-service-image-02.png'
+    }
+  ],
+  services_bottom:[
+    {
+      title: 'Idea Discussion',
+      info: 'Get teamed up with the specialists who work and teach coding at years at famous universities.',
+      image: 'home-6-service-image-03.png'
+    },
+    {
+      title: 'Web Development',
+      info: 'Learn to start building a webpage from scratch. You decide your own pace, course and speed.',
+      image: 'home-6-service-image-04.png'
+    }
+  ],
+  lista:[
+    'Select & customize courses to your preferences',
+    'Change the tutor and make arrangements',
+    'Partecipates in events to join others',
+    'Get the desired certificate delivered at house'
   ]
 }

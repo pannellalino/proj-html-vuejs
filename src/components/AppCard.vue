@@ -26,6 +26,10 @@ export default {
   width: calc(100% / 2);
   border: 0;
   background-color: transparent;
+  &:hover{
+    background-color: white;
+    box-shadow: 0px 1px 25px 1px lightgray;
+  }
     img{
       object-fit: cover;
       width: 150px;

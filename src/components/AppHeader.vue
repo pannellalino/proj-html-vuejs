@@ -1,17 +1,19 @@
 <script>
 import AppMenu from './AppMenu.vue';
+import AppFooter from './AppFooter.vue';
 
 export default {
   name: 'AppHeader',
   components:{
-    AppMenu
+    AppMenu,
+    AppFooter
   }
 
 }
 </script>
 
 <template>
-  <header>
+  <header id="up">
     <div class="container d-flex align-items-center justify-content-between h-100">
 
       <img src="../assets/img/light-logo.png" alt="logo">
