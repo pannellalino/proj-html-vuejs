@@ -43,7 +43,7 @@ export default {
 
 <style lang="scss" scoped>
 section{
-  background-color: rgb(230, 230, 230);
+  background-image: linear-gradient(white 60%, rgb(228, 228, 228));
 }
 span{
   font-weight: 100;

@@ -87,6 +87,9 @@ export default {
   .card{
     width: calc(100% / 3);
     box-shadow: 0px 1px 20px 1px lightgray;
+    &:hover{
+      box-shadow: none;
+    }
     .image{
       height: 142px;
       width: 100%;

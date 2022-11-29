@@ -57,7 +57,7 @@ export default {
 
 <style lang="scss" scoped>
 footer{
-  background-color: #f6f3f6;
+  background-color: #F6F6F6;
   position: relative;
   span{
     font-size: .8rem;
