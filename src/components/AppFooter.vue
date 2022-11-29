@@ -43,6 +43,12 @@ export default {
           </ul>
         </div>
       </div>
+      <div class="icons text-secondary offset-1 col-3 text-start">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
     </div>
     <span class="text-secondary">2020 Maxcoach. All Rights Reserved</span>
     <button class="rounded-circle"><a href="up"><i class="fa-solid fa-arrow-up"></i></a></button>
@@ -71,6 +77,17 @@ footer{
     font-size: 20px;
     &:hover{
       background-color: #293259;
+    }
+  }
+  ul{
+    li{
+      font-size: .9rem;
+      margin-bottom: 5px;
+    }
+  }
+  .icons{
+    i{
+      margin-right: 30px;
     }
   }
 }

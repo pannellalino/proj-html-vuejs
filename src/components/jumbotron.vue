@@ -17,6 +17,13 @@ export default {
     <h6 class="text-center text-white-50">Get teamed up with people of the same will.</h6>
     <buttonCustom /><br>
 
+    <div class="off-canvas bg-white d-flex flex-column rounded-start">
+      <i class="fa-solid fa-ruler"></i>
+      <i class="fa-regular fa-circle"></i>
+      <i class="fa-solid fa-book"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+
     <div class="container-c m-0">
       <div class="row w-100 mt-5 justify-content-center">
         <div class="col-2 d-flex justify-content-center">
@@ -63,6 +70,16 @@ export default {
     }
     .image-right{
       width: 250px;
+    }
+  }
+  .off-canvas{
+    width: 30px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    i{
+      padding: 10px 0;
+      font-size: .9rem;
     }
   }
 }

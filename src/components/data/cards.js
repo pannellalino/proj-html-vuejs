@@ -115,5 +115,23 @@ export default{
     'Change the tutor and make arrangements',
     'Partecipates in events to join others',
     'Get the desired certificate delivered at house'
+  ],
+  numbers:[
+    {
+      title: '1.926',
+      descr: 'Fineshed session'
+    },
+    {
+      title: '3.092+',
+      descr: 'Enrolled learners'
+    },
+    {
+      title: '200',
+      descr: 'Online instructor'
+    },
+    {
+      title: '100%',
+      descr: 'Satisfaction rate'
+    }
   ]
 }

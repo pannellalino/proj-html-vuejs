@@ -14,7 +14,7 @@ export default {
         </div>
         <div class="text text-start">
           <h5><strong>{{card.price}}</strong></h5>
-          <p v-html="card.info"></p>
+          <p class="fw-bold" v-html="card.info"></p>
           <span class="pe-4"><i class="fa-solid fa-file-lines me-2"></i>{{card.lessons}}</span>
           <span><i class="fa-regular fa-user me-2"></i>{{card.students}}</span>
         </div>

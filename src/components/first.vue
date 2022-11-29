@@ -26,6 +26,12 @@ export default {
           <span class="text-secondary fw-light">/Founder & CEO</span>
         </div>
       </div>
+      <div class="numbers my-5 py-4">
+        <div class="mx-5" v-for="(num, index) in cards.numbers" :key="index">
+          <h2 class="fw-bold">{{num.title}}</h2>
+          <span class="text-secondary text-uppercase">{{num.descr}}</span>
+        </div>
+      </div>
       <div class="d-flex">
         <div class="container-cards cards py-5">
           <div class="d-flex flex-wrap pos justify-content-center">
@@ -35,8 +41,8 @@ export default {
               <img src="../assets/img/home-6-service-image-01.png" alt="">
             </div>
             <div class="card me-4 my-4 text-start px-3 pt-3 border-0 move">
-              <h5 class="fw-bold">Graphic Design</h5>
-              <p class="text-secondary">Have a passion for graphic and arts? Show your talents with confidence and self-assertiveness.</p>
+              <h5 class="fw-bold">Business Administration</h5>
+              <p class="text-secondary">Learners are encouraged to study the mechanism and structure of system administration.</p>
               <div class="image text-center">
                 <img class="h-100" src="../assets/img/home-6-service-image-02.png" alt="">
               </div>
@@ -45,19 +51,19 @@ export default {
               <div class="image text-start">
                 <img class="h-100" src="../assets/img/home-6-service-image-03.png" alt="">
               </div>
-              <h5 class="fw-bold ps-3">Graphic Design</h5>
-              <p class="text-secondary ps-3">Have a passion for graphic and arts? Show your talents with confidence and self-assertiveness.</p>
+              <h5 class="fw-bold ps-3">Idea Discussion</h5>
+              <p class="text-secondary ps-3">Get teamed up with the specialists who work and teach coding for years at famous universities.</p>
             </div>
             <div class="card me-4 my-4 text-start px-3 pt-3 border-0 move">
               <div class="image text-center">
                 <img class="w-100" src="../assets/img/home-6-service-image-04.png" alt="">
               </div>
-              <h5 class="fw-bold">Graphic Design</h5>
-              <p class="text-secondary">Have a passion for graphic and arts? Show your talents with confidence and self-assertiveness.</p>
+              <h5 class="fw-bold">Web Development</h5>
+              <p class="text-secondary">Learn to start building a webpage from scratch. You decide your own pace, course and speed.</p>
             </div>       
           </div> 
         </div>
-        <div class="text col-4 text-start">
+        <div class="text col-4 text-start pe-4">
           <h6 class="text-uppercase text-secondary">Together we can create</h6>
           <h2 class="fw-bold my-2">Services We <span class="fw-light text-success">Can Provide</span> For My Clients.</h2>
           <ul v-for="(list, index) in cards.lista" :key="index">
@@ -102,6 +108,16 @@ export default {
     &:hover{
       color: white;
       background-color: #293259;
+    }
+  }
+  .numbers{
+    display: flex;
+    justify-content: center;
+    h2{
+      color: #27ab94;
+    }
+    span{
+      font-size: .8rem;
     }
   }
 }
