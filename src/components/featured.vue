@@ -37,7 +37,7 @@ export default {
 
 <style lang="scss" scoped>
 section{
-  background-color: #f6f3f6;
+  background-color: #F6F6F6;
   h6{
     text-transform: uppercase;
     color: grey;
